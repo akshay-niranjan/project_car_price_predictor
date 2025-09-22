@@ -4,8 +4,8 @@ import pandas as pd
 import numpy as np
 
 # Load the model and data
-model = pickle.load(open('Project_Car_Price_Predictor/LinearRegressionModel.pkl','rb'))
-car = pd.read_csv('Project_Car_Price_Predictor/Cleaned Car.csv')
+model = pickle.load(open('LinearRegressionModel.pkl','rb'))
+car = pd.read_csv('Cleaned Car.csv')
 
 st.title("🚗 Car Price Predictor")
 
